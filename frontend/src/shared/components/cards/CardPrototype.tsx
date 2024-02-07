@@ -129,7 +129,6 @@ const CardPrototype = ({ cardData }: { cardData: CardInformation }) => {
 							<Label className="w-1/3">Categoria</Label>
 							<Input
 								placeholder="Nombre"
-								value={cardData?.categorie}
 								{...register("categorie", {
 									required: true,
 									value: cardData?.categorie,
