@@ -52,6 +52,8 @@ cd frontend
 pnpm install
 pnpm dev
 ```
+Tomar en cuenta que la URL de la base de datos se encuentra en el archivo .env.example como referencia.
+
 ## Validaciones
 
 - Se realizan validaciones en el backend y en el frontend utilizando Zod y React Hook Form.
