@@ -45,7 +45,6 @@ Para ejecutar el backend, navega a la carpeta backend y ejecuta:
 ```sh
 cd backend
 pnpm install
-pnpm prisma db push
 pnpm prisma generate
 pnpm dev 
 
