@@ -1,4 +1,4 @@
-# Nombre del Proyecto
+# Gestor Tarjetas Habientes
 
 Este proyecto es una aplicación web de ejemplo que utiliza Node.js, Express.js, Prisma, React, Vite y Tailwind CSS.
 
@@ -43,8 +43,15 @@ El frontend se encuentra en la carpeta [frontend](frontend/). El punto de entrad
 Para ejecutar el backend, navega a la carpeta backend y ejecuta:
 
 ```sh
+cd backend
 pnpm install
+pnpm prisma db push
+pnpm prisma generate
 pnpm dev 
+
+cd frontend
+pnpm install
+pnpm dev
 ```
 ## Validaciones
 
